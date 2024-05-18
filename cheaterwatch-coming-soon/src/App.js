@@ -1,15 +1,18 @@
+// App.js
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Coming Soon</h1>
-        <p>We are working hard to build this website. Check back soon for more info.</p>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header />
+            <MainContent />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
