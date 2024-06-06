@@ -1,80 +1,36 @@
-/* App.css */
-
-/* Global Styles */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-  background-color: #000000;
-  color: #ffffff;
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
 
-a {
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown {
+  margin: 20px 0;
   color: #00ff8c;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #00ff8c;
+  margin: 0 10px;
   text-decoration: none;
 }
 
-a:hover {
+.social-links a:hover {
   text-decoration: underline;
-}
-
-/* Header Styles */
-.header {
-  background-color: #000000;
-  padding: 20px;
-  text-align: center;
-}
-
-.header h1 {
-  margin: 0;
-  font-size: 2rem;
-  color: #00ff8c; /* Green color */
-}
-
-/* Main Content Styles */
-.main-content {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  text-align: center;
-}
-
-.main-content h2 {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-}
-
-.main-content p {
-  font-size: 1rem;
-  margin-bottom: 10px;
-}
-
-/* Footer Styles */
-.footer {
-  background-color: #000000;
-  padding: 20px;
-  text-align: center;
-  margin-top: auto; /* Stick to bottom */
-}
-
-.footer p {
-  margin: 5px 0;
-}
-
-.footer a {
-  margin: 0 5px;
-}
-
-/* Responsive Styles */
-@media screen and (max-width: 768px) {
-  .header h1 {
-    font-size: 1.5rem;
-  }
-  
-  .main-content {
-    padding: 10px;
-  }
 }
