@@ -45,9 +45,9 @@ function App() {
       <header className="App-header">
         <h1>CheaterWatch</h1>
         <p>Your ultimate solution for monitoring and reporting in-game cheaters.</p>
-        <p>We are working hard to launch our open beta. Stay tuned!</p>
+        <p>We are working hard to launch our closed beta. Stay tuned!</p>
         <div className="countdown">
-          <h2>Beta Launch In:</h2>
+          <h2>Closed Beta Launch In:</h2>
           {countdownComponents.length ? countdownComponents : <span>Time's up!</span>}
         </div>
         <div className="social-links">
